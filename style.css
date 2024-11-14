@@ -1,0 +1,62 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: blueviolet;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+}
+.container header .teks {
+  text-align: center;
+}
+.container header .teks h4 {
+  font-size: 40px;
+}
+.container header .teks p {
+  font-size: 18px;
+}
+.container main {
+  background-color: #fbfbfb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container main .articles {
+  width: 50%;
+}
+.container main .articles .article-1 {
+  padding-bottom: 30px;
+  line-height: 2.5;
+}
+.container main .articles .article-1 h4 {
+  font-size: 30px;
+}
+.container main .articles .article-1 p {
+  line-height: 2.5;
+}
+.container main .articles hr {
+  border: 0.5px solid #5c5c5c;
+}
+.container main .articles .article-2 {
+  padding: 10px 0;
+  line-height: 2.5;
+}
+.container main .articles .article-2 h4 {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
